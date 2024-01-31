@@ -14,14 +14,12 @@
 
 Пункт 5: 
 
-'''
-resource "docker_image" "image_id" {
+'''resource "docker_image" "image_id" {
   name = "nginx:latest"
   keep_locally = true
 }
 
 resource "docker_container" "nginx" {
   image = docker_image.image_id.name 
-  name  = "exsample_${random_password.random_string.result}" 
-'''
+  name  = "exsample_${random_password.random_string.result}" '''
 
