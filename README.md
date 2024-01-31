@@ -41,3 +41,4 @@
   "resources": [],
   "check_results": null
 ````
+Пункт 8:
