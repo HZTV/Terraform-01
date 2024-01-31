@@ -14,7 +14,7 @@
 
 Пункт 5: 
 
-''' resource "docker_image" "image_id" { '''
+````resource "docker_image" "image_id" {````
   name = "nginx:latest"
   keep_locally = true
 }
