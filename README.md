@@ -12,7 +12,7 @@
 Ошибка неправильное обращение к типу и имени локального ресурса в image = docker_image.nginx.image_id
 Неправильно имя локального ресурса (начиналось с единицы) resource "docker_container" "1nginx"
 
-Пункт 5: 
+Пункт 5: ![Скриншот 31-01-2024 104652](https://github.com/HZTV/Terraform-01/assets/149588305/9fe7842a-1bcc-4be0-8918-d42321e54686)
 
 resource "docker_image" "image_id" {
    name = "nginx:latest" 
@@ -21,4 +21,5 @@ resource "docker_image" "image_id" {
    resource "docker_container" "nginx" {
    image = docker_image.image_id.name
    name  = "exsample_${random_password.random_string.result}"  
+   
 
