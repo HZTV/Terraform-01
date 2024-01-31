@@ -20,7 +20,7 @@ keep_locally = true
 }
    resource "docker_container" "nginx" {
    image = docker_image.image_id.name
-````   name  = "exsample_${random_password.random_string.result}" 
+   name  = "exsample_${random_password.random_string.result}" ````
    
 Пункт 6: ![Скриншот 31-01-2024 110821](https://github.com/HZTV/Terraform-01/assets/149588305/1107919d-7129-428b-9638-f6f8d36ebc5d)
 
