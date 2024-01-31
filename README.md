@@ -15,10 +15,10 @@
 Пункт 5: ![Скриншот 31-01-2024 104652](https://github.com/HZTV/Terraform-01/assets/149588305/9fe7842a-1bcc-4be0-8918-d42321e54686)
 
 ````
-resource "docker_image" "image_id" { 
-name = "nginx:latest" 
-keep_locally = true 
-}
+   resource "docker_image" "image_id" { 
+   name = "nginx:latest" 
+   keep_locally = true 
+  
    resource "docker_container" "nginx" {
    image = docker_image.image_id.name
    name  = "exsample_${random_password.random_string.result}"
