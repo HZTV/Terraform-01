@@ -32,7 +32,7 @@
 
 Пункт 7: ![Скриншот 31-01-2024 110919](https://github.com/HZTV/Terraform-01/assets/149588305/16c2151b-9922-4990-9201-8b02399d8122)
 
-''''
+````
   "version": 4,
   "terraform_version": "1.5.6",
   "serial": 39,
@@ -40,4 +40,4 @@
   "outputs": {},
   "resources": [],
   "check_results": null
-''''
+````
