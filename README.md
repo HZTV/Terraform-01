@@ -4,6 +4,9 @@
 
 Задание 1
 
+Пункт 2:
+Секретные данные можно сохранить в файле personal.auto.tfvars
+
 Пункт 3: ![image](https://github.com/HZTV/Terraform-01/assets/149588305/cfd5ac51-e373-42c4-b465-37c1ccd2fdb4)
 
 Пункт 4:
